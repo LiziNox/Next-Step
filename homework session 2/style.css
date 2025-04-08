@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+  } 
+
+  /* Top Contact Bar */
+.top-bar {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .top-bar i {
+    margin-right: 10px;
+  }
+  
+  
+  /* Fullscreen Hero Background */
+  .hero {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/64470f9d49a2bf1caedd7da5/1719260476067-5GGQA69ZD6K5Z2V3M26Q/Napa+Valley+Car+Club+May+Corp+Event-1298.jpg'); 
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    position:relative;
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .hero-content {
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+    transform: translateY(-250%);
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+    position: relative;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 8px;
+  }
+  
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    top: 5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 10;
+    background: rgba(0,0,0,0.6); /*Semi-transparent*/
+  }
+  
+  .logo img {
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.4); 
+    border-radius: 10px;
+  }
+  
+  .nav-center {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-center a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 9px;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .nav-center a:hover {
+    color: #f0c000;
+  }
+  
+  /* Social Icons */
+  .nav-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-icons a {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-icons a:hover {
+    color: #f0c000;
+  }
+  
+  .dropdown-container {
+    display:flex;
+    gap: 40px; 
+    align-content: center;
+    transform: translateY(-1000%);
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  select {
+    padding: 12px 15px;
+    font-size: 12px;
+    color: black;
+    width: 400px; 
+    height: 40px;
+    align-items: center;
+    margin: 0 10px;
+    background-color: white;
+    appearance: none;
+    -moz-appearance: none;
+    text-align: center;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6"/></svg>'); /* Custom dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    padding-right: 30px; 
+
+
+  }
+
+  button.search-button {
+    padding: 20px 40px;
+    font-size: 12px;
+    background-color: gray;
+    color: white; 
+    cursor: pointer;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    height: 30px;
+    width: 70px;
+  }
+
+  button.search-button:hover {
+    box-shadow: 0 0 5px rgba (0,123,255,0.5);
+    border-color: #00fbff;
+    height: 40px;
+    width: 400px;
+    outline: none;
+
+  }
+  
